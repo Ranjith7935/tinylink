@@ -116,7 +116,7 @@ export default function StatsPage() {
           <h2 className="text-lg font-semibold text-gray-900 mb-4">Target URL</h2>
           <div className="flex items-center gap-3 bg-gray-50 p-4 rounded-lg">
             <span className="text-gray-700 flex-1 break-all">{link.url}</span>
-            
+            <a
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
